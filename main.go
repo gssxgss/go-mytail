@@ -1,11 +1,13 @@
-//https://www.linkedin.com/pulse/golang-simple-tail-tagir-ismagilov/
-//https://github.com/hpcloud/tail/blob/master/tail.go
-//https://gobyexample.com/command-line-flags
-//https://gobyexample.com/command-line-arguments
-//https://gobyexample.com/reading-files
-//https://medium.freecodecamp.org/writing-command-line-applications-in-go-2bc8c0ace79d
-//https://github.com/coreymgilmore/gotail/blob/master/gotail.go
-//https://gobyexample.com/command-line-flags
+// ===> REFERENCES
+// https://www.linkedin.com/pulse/golang-simple-tail-tagir-ismagilov/
+// https://github.com/hpcloud/tail/blob/master/tail.go
+// https://gobyexample.com/command-line-flags
+// https://gobyexample.com/command-line-arguments
+// https://gobyexample.com/reading-files
+// https://medium.freecodecamp.org/writing-command-line-applications-in-go-2bc8c0ace79d
+// https://github.com/coreymgilmore/gotail/blob/master/gotail.go
+// https://gobyexample.com/command-line-flags
+
 package main
 
 import (
@@ -14,7 +16,7 @@ import (
 	"fmt"
 	"errors"
 	"flag"
-	)
+)
 
 func tail(file *os.File, line int) {
 
